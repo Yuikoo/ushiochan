@@ -1,0 +1,23 @@
+{
+  "name": "Ushio",
+  "version": "0.0.0",
+  "description": "Node.js Website",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.11.3"
+  },
+  "author": "Yuu#0523",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yuikoo/ushiochan/issues"
+  },
+  "homepage": "https://github.com/Yuikoo/ushiochan/blob/master/README.md",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
