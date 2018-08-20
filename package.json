@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Yuikoo/ushiochan/blob/master/README.md",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "ejs": "^2.6.1"
   }
 }
