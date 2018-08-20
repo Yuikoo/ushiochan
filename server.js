@@ -3,8 +3,10 @@ const express = require('express')
 const app = express()
 
 const img = express.static(path.join(__dirname, './img/'));
+const style = express.static(path.join(__dirname, './css/'));
 app.use('/img', img);
-app.set('view engine', 'ejs')
+app.use('/css', style);
+app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
   res.render('index')
