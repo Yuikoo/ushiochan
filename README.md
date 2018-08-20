@@ -1,0 +1,2 @@
+# ushiochan
+Whoa, a Website!
